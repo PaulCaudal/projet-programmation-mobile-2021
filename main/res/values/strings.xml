@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">projet</string>
+    <string name="newmatch">Nouveau Match</string>
+    <string name="histo">Historique</string>
+    <string name="tentra">TENNIS TRACKER</string>
+    <string name="dateex">31/08/1999</string>
+    <string name="j1">Joueur1</string>
+    <string name="j2">Joueur2</string>
+    <string name="addex">Lincoln Street</string>
+    <string name="demarer">Démarrer</string>
+    <string name="echange">ECHANGE</string>
+    <string name="serveur">SERVEUR</string>
+    <string name="Score">SCORE</string>
+    <string name="J1">Joueur 1</string>
+    <string name="J2">Joueur 2</string>
+    <string name="deff">-</string>
+    <string name="unOK">1ere OK</string>
+    <string name="ace">Ace</string>
+    <string name="deuxOK">2eme OK</string>
+    <string name="doubfau">Double Faute</string>
+    <string name="Initun">1</string>
+    <string name="initdeux">2</string>
+    <string name="PG">Point Gagnant</string>
+    <string name="FP">Faute Provoquée</string>
+    <string name="FD">Faute Direct</string>
+    <string name="start">0</string>
+    <string name="historique">Historique</string>
+    <string name="statgen">Statistiques générales</string>
+    <string name="PGH">Points Gagnés</string>
+    <string name="statre">Statistique de service</string>
+    <string name="prems">Premier service</string>
+    <string name="deuse">Deuxième service</string>
+    <string name="aceh">ace</string>
+    <string name="statech">Statisiques échange</string>
+    <string name="match">match</string>
+</resources>

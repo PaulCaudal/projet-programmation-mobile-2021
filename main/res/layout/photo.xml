@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Layoutphoto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HistoriActivity"
+    tools:showIn="@layout/photo">
+
+    <GridLayout
+        android:id="@+id/gridLayoutphoto"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="#FF9800"
+        android:columnCount="2"
+        android:rowCount="1"
+        tools:context=".HistoriActivity"
+        tools:showIn="@layout/photo">
+
+        <ImageView
+            android:id="@+id/imgphoto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_marginRight="95dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <ImageButton
+            android:id="@+id/backButtonhisto3"
+            android:layout_width="89dp"
+            android:layout_height="46dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginTop="24dp"
+            android:background="#FF9800"
+            android:onClick="myClickHandlerb"
+            android:tint="#070707"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_menu_revert"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="7dp"
+            tools:visibility="visible" />
+    </GridLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/Layoutpic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>
